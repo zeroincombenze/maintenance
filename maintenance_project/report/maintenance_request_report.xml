@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <template
-            id="report_maintenance_request_document"
-            inherit_id="base_maintenance.report_maintenance_request_document"
-        >
+        <template id="report_maintenance_request_document"
+                  inherit_id="base_maintenance.report_maintenance_request_document">
             <xpath expr="//div[@id='schedule_informations']" position="after">
                 <div class="row mt32 mb32" id="project_informations">
                     <div t-if="doc.project_id" class="col-auto mw-100 mb-2">

@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* maintenance_timesheet
+#	* maintenance_timesheet
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-12-27 01:27+0000\n"
+"PO-Revision-Date: 2021-07-28 09:49+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -14,10 +14,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #. module: maintenance_timesheet
-#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.hr_equipment_request_view_form
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.equipment_request_view_form
 msgid "<span class=\"o_label\" style=\"padding-left: 5px;\">Hours</span>"
 msgstr "<span class=\"o_label\" style=\"padding-left: 5px;\">Ore</span>"
 
@@ -48,10 +48,9 @@ msgid "Analytic Line"
 msgstr "Riga analitica"
 
 #. module: maintenance_timesheet
-#: code:addons/maintenance_timesheet/models/hr_timesheet.py:0
+#: code:addons/maintenance_timesheet/models/hr_timesheet.py:47
 #, python-format
-msgid ""
-"Cannot save or delete a timesheet for a maintenance request already done"
+msgid "Cannot save or delete a timesheet for a maintenance request already done"
 msgstr ""
 "Non si può salvare o cancellare un foglio presenze per una richiesta di "
 "manutenzione già eseguita"
@@ -67,32 +66,6 @@ msgid "Description"
 msgstr "Descrizione"
 
 #. module: maintenance_timesheet
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_account_analytic_line__display_name
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_equipment__display_name
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__display_name
-msgid "Display Name"
-msgstr "Nome visualizzato"
-
-#. module: maintenance_timesheet
-#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.equipment_request_view_form
-msgid "Duration (Hour(s))"
-msgstr "Durata (ora(e))"
-
-#. module: maintenance_timesheet
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_account_analytic_line__id
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_equipment__id
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__id
-msgid "ID"
-msgstr "ID"
-
-#. module: maintenance_timesheet
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_account_analytic_line____last_update
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_equipment____last_update
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request____last_update
-msgid "Last Modified on"
-msgstr "Ultima modifica il"
-
-#. module: maintenance_timesheet
 #: model:ir.model,name:maintenance_timesheet.model_maintenance_equipment
 msgid "Maintenance Equipment"
 msgstr "Attrezzatura manutenzione"
@@ -100,29 +73,13 @@ msgstr "Attrezzatura manutenzione"
 #. module: maintenance_timesheet
 #: model:ir.model,name:maintenance_timesheet.model_maintenance_request
 #: model:ir.model.fields,field_description:maintenance_timesheet.field_account_analytic_line__maintenance_request_id
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_hr_timesheet_switch__maintenance_request_id
 msgid "Maintenance Request"
 msgstr "Richiesta manutenzione"
-
-#. module: maintenance_timesheet
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__planned_hours
-msgid "Planned Hours"
-msgstr "Ore pianificate"
-
-#. module: maintenance_timesheet
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__progress
-msgid "Progress"
-msgstr "Avanzamento"
 
 #. module: maintenance_timesheet
 #: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
 msgid "Project -"
 msgstr "Progetto -"
-
-#. module: maintenance_timesheet
-#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__remaining_hours
-msgid "Remaining Hours"
-msgstr "Ore residue"
 
 #. module: maintenance_timesheet
 #: model_terms:ir.ui.view,arch_db:maintenance_timesheet.hr_timesheet_line_search
@@ -137,7 +94,7 @@ msgstr "Responsabile"
 #. module: maintenance_timesheet
 #: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
 msgid "Task"
-msgstr "Lavoro"
+msgstr "Incarico"
 
 #. module: maintenance_timesheet
 #: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
@@ -152,6 +109,5 @@ msgstr "Ore totali foglio presenze"
 #. module: maintenance_timesheet
 #: model:ir.actions.act_window,name:maintenance_timesheet.timesheet_action_from_request
 #: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__timesheet_ids
-#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.equipment_request_view_form
 msgid "Timesheets"
 msgstr "Foglio presenze"

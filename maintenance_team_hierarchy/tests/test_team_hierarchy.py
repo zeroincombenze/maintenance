@@ -1,11 +1,11 @@
 # Copyright 2019 Creu Blanca
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo.tests.common import TransactionCase, tagged
+from odoo.tests.common import TransactionCase, at_install, post_install
 
 
-# This test should only be executed after all modules have been installed.
-@tagged("post_install", "-at_install")
+@at_install(False)
+@post_install(True)
 class TestTeamHierarchy(TransactionCase):
     def setUp(self):
         super().setUp()

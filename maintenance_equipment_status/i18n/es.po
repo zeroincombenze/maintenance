@@ -29,7 +29,7 @@ msgstr "Archivado"
 #. module: maintenance_equipment_status
 #: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__category_ids
 msgid "Categories"
-msgstr "Categor??as"
+msgstr "Categorías"
 
 #. module: maintenance_equipment_status
 #: model_terms:ir.actions.act_window,help:maintenance_equipment_status.maintenance_equipment_status_action
@@ -47,7 +47,6 @@ msgid "Created on"
 msgstr "Creado el"
 
 #. module: maintenance_equipment_status
-#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment__display_name
 #: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__display_name
 msgid "Display Name"
 msgstr "Nombre a mostrar"
@@ -66,26 +65,24 @@ msgid "Equipment Statuses"
 msgstr "Estados de Equipamiento"
 
 #. module: maintenance_equipment_status
-#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment__id
 #: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__id
 msgid "ID"
 msgstr "ID"
 
 #. module: maintenance_equipment_status
-#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment____last_update
 #: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status____last_update
 msgid "Last Modified on"
-msgstr "??ltima modificaci??n en"
+msgstr "Última modificación en"
 
 #. module: maintenance_equipment_status
 #: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__write_uid
 msgid "Last Updated by"
-msgstr "??ltima modificaci??n por"
+msgstr "Última modificación por"
 
 #. module: maintenance_equipment_status
 #: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__write_date
 msgid "Last Updated on"
-msgstr "??ltima Actualizaci??n el"
+msgstr "Última Actualización el"
 
 #. module: maintenance_equipment_status
 #: model:ir.model,name:maintenance_equipment_status.model_maintenance_equipment
@@ -104,20 +101,10 @@ msgid "Name"
 msgstr "Nombre"
 
 #. module: maintenance_equipment_status
-#: model:maintenance.equipment.status,name:maintenance_equipment_status.maintenance_equipment_status_1
-msgid "New"
-msgstr ""
-
-#. module: maintenance_equipment_status
 #: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__note
 #: model_terms:ir.ui.view,arch_db:maintenance_equipment_status.maintenance_equipment_status_view_form
 msgid "Notes"
 msgstr "Notas"
-
-#. module: maintenance_equipment_status
-#: model:maintenance.equipment.status,name:maintenance_equipment_status.maintenance_equipment_status_3
-msgid "Retired"
-msgstr ""
 
 #. module: maintenance_equipment_status
 #: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__sequence
@@ -130,26 +117,23 @@ msgid "Status"
 msgstr "Estado"
 
 #. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment__status_name
+msgid "Status name"
+msgstr "Nombre del Estado"
+
+#. module: maintenance_equipment_status
 #: model:ir.model.fields,help:maintenance_equipment_status.field_maintenance_equipment_status__category_ids
 msgid ""
 "When set, this status will only be applicable to the equipments under these "
 "categories."
 msgstr ""
 "Si se establece, este estado solo se aplicara a equipamientos de estas "
-"categor??as."
-
-#. module: maintenance_equipment_status
-#: model:maintenance.equipment.status,name:maintenance_equipment_status.maintenance_equipment_status_2
-msgid "Working"
-msgstr ""
+"categorías."
 
 #. module: maintenance_equipment_status
 #: model_terms:ir.ui.view,arch_db:maintenance_equipment_status.maintenance_equipment_status_view_form
 msgid "e.g. Operational"
 msgstr "p. e. Operativo"
-
-#~ msgid "Status name"
-#~ msgstr "Nombre del Estado"
 
 #~ msgid "Equipment"
 #~ msgstr "Equipamiento"

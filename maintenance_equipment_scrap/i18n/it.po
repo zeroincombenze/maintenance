@@ -1,12 +1,12 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* maintenance_equipment_scrap
+#	* maintenance_equipment_scrap
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-07-28 09:49+0000\n"
+"PO-Revision-Date: 2021-07-23 15:49+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -18,28 +18,16 @@ msgstr ""
 
 #. module: maintenance_equipment_scrap
 #: model:mail.template,body_html:maintenance_equipment_scrap.equipment_scrap_mail_template
-msgid ""
-"\n"
+msgid "\n"
 "            <p>Hello, <strong>${object.owner_user_id.name}</strong></p>\n"
-"            <p>Your equipment <strong>${object.name}</strong>\n"
-"\n"
-"            % if object.serial_no:\n"
-"                with Serial Number: <strong>${object.serial_no}</strong>\n"
-"            % endif\n"
-"\n"
-"            was scrapped.</p>\n"
+"            <p>Your equipment <strong>${object.name}</strong> with Serial Number: <strong>${object.serial_no}</strong> was scrapped.</p>\n"
 "        "
 msgstr ""
 "\n"
 "            <p>Salve, <strong>${object.owner_user_id.name}</strong></p>\n"
-"            <p>La tua attrezzatura <strong>${object.name}</strong>\n"
+"            <p>La tua attrezzatura <strong>${object.name}</strong> con "
+"numero di serie: <strong>${object.serial_no}</strong> è stata rottamata.</p>"
 "\n"
-"            % if object.serial_no:\n"
-"                con numero di matricola: <strong>${object.serial_no}</strong>"
-"\n"
-"            % endif\n"
-"\n"
-"            è stata rottamata.</p>\n"
 "        "
 
 #. module: maintenance_equipment_scrap
@@ -106,7 +94,7 @@ msgstr "Categoria attrezzatura manutenzione"
 #. module: maintenance_equipment_scrap
 #: model:ir.model,name:maintenance_equipment_scrap.model_wizard_perform_equipment_scrap
 msgid "Perform Scrap (Equipment)"
-msgstr "Esegui rottamazione (attrezzatura)"
+msgstr "Effettua rottamazione (attrezzatura)"
 
 #. module: maintenance_equipment_scrap
 #: model_terms:ir.ui.view,arch_db:maintenance_equipment_scrap.hr_equipment_view_form
@@ -127,7 +115,7 @@ msgstr "Rottamazione attrezzatura"
 #. module: maintenance_equipment_scrap
 #: model:ir.actions.act_window,name:maintenance_equipment_scrap.wizard_perform_equipment_scrap_action
 msgid "Wizard Scrap"
-msgstr "Rottamazione guidata"
+msgstr "Wizard rottamazione"
 
 #. module: maintenance_equipment_scrap
 #: model:mail.template,subject:maintenance_equipment_scrap.equipment_scrap_mail_template
